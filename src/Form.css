@@ -1,0 +1,25 @@
+
+
+.btn{
+    padding: 5px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orangered;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    border: 1px solid black;
+}

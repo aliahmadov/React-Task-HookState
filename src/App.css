@@ -1,38 +1,68 @@
-.App {
+
+
+
+.prodCard{
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
   text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+  margin-top: 40px ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.prodCard:hover{
+transition: 0.5s;
+background-color: white;
+color: black;
+cursor: pointer;
+border: 20px solid black;
+font-size: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form{
+  border: 1px dashed black;
+  padding: 40px;
+  margin-top: 40px;
+  width: 60%;
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mR{
+  margin-right: 10px;
+}
+
+.m5{
+  margin: 5px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.formInput{
+  font-size: 20px;
+}
+
+.formBtn{
+  border-radius: 10px;
+  padding: 10px 30px;
   color: white;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.green{
+  background-color: green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.orange{
+  background-color: orangered;
+}
+
+.formBtn:hover{
+  background-color: white;
+  color: black;
+  transition:0.5s;
+  cursor: pointer;
+  border: 1px solid black;
 }
